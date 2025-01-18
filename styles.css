@@ -1,0 +1,182 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth; 
+}
+
+body {
+    background-color: #f0f8ff;
+}
+
+nav {
+    background: linear-gradient(135deg, #2196F3, #1976D2);
+    padding: 1rem;
+    color: white;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.hero-section {
+    padding-top: 100px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(33, 150, 243, 0.1), rgba(33, 150, 243, 0.05));
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.header h1 {
+    color: #1976D2;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+.course-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.course-content {
+    padding: 1.5rem;
+}
+
+.course-title {
+    font-size: 1.25rem;
+    color: #1976D2;
+    margin-bottom: 0.5rem;
+}
+
+.course-details {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.course-hours {
+    color: #2196F3;
+    font-weight: bold;
+}
+
+.about-section {
+    background: white;
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-section {
+    background: white;
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 2rem;
+    line-height: 1.6;
+}
+
+footer {
+    background: #1976D2;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.button {
+    background: #2196F3;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #1976D2;
+}
+
+section {
+    padding: 4rem 0;
+}
